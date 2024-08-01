@@ -1,0 +1,12 @@
+//Typography
+@use 'base/typography';
+
+//Tailwind css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//Layout
+
+@import 'layout/welcome';

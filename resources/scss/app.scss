@@ -7,6 +7,12 @@
 @tailwind components;
 @tailwind utilities;
 
+//Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+
 //Layout
 
 @import 'layout/welcome';
+@import 'layout/app';

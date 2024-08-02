@@ -1,0 +1,3 @@
+@function lighten-color($color, $amount) {
+    @return mix(white, $color, $amount);
+}

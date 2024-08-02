@@ -1,0 +1,73 @@
+$color-primary: #BB78D9;
+$color-complementary: #78D99B;
+
+$color-analogous-1: #D978BB;
+$color-analogous-2: #D978D9;
+$color-analogous-3: #9B78D9;
+
+$color-accent-1: #FFD700;
+$color-accent-2: #FF4500;
+$color-accent-3: #32CD32;
+
+
+.text-primary {
+    color: $color-primary;
+}
+
+.text-danger {
+    @apply text-rose-600;
+}
+
+.text-complementary {
+    color: $color-complementary;
+}
+
+.text-analogous-1 {
+    color: $color-analogous-1;
+}
+
+.text-analogous-2 {
+    color: $color-analogous-2;
+}
+
+.text-accent-1 {
+    color: $color-accent-1;
+}
+
+.text-accent-2 {
+    color: $color-accent-2;
+}
+
+.text-accent-3 {
+    color: $color-accent-3;
+}
+
+.bg-primary {
+    background-color: $color-primary;
+}
+
+.bg-complementary {
+    background-color: $color-complementary;
+}
+
+.bg-analogous-1 {
+    background-color: $color-analogous-1;
+}
+
+.bg-analogous-2 {
+    background-color: $color-analogous-2;
+}
+
+.bg-accent-1 {
+    background-color: $color-accent-1;
+}
+
+.bg-accent-2 {
+    background-color: $color-accent-2;
+}
+
+.bg-accent-3 {
+    background-color: $color-accent-3;
+}
+
+

@@ -9,7 +9,7 @@
                         <x-application-logo class="w-20 h-20 text-gray-500 fill-current"/>
                     </a>
                 </div>
-                <h1 class="text-3xl font-semibold mb-6 text-primary text-center">Sign In</h1>
+                <h1 class="text-3xl font-semibold mb-6 text-accent3 text-center">Sign In</h1>
 
                 <!-- Session Status -->
                 <x-auth-session-status class="mb-4" :status="session('status')"/>
@@ -42,14 +42,14 @@
                                required autocomplete="new-password">
 
                         @error('password')
-                        <p class="mt-1 text-xs italic text-red-500">
+                        <p class="mt-1 text-xs italic text-danger">
                             {{ $message }}
                         </p>
                         @enderror
                     </div>
 
                     <!-- Remember Me -->
-                    <div class="mt-4 flex justify-between flex-wrap space-y-2 items-center">
+                    <div class="mt-4 flex justify-between flex-wrap space-y-2 md:space-y-0 items-center">
                         <label for="remember_me" class="inline-flex items-center">
                             <input id="remember_me" type="checkbox"
                                    class="text-indigo-600 border-gray-300 rounded shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"

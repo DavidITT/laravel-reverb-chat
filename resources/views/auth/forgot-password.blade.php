@@ -11,7 +11,7 @@
                 <!-- Session Status -->
                 <x-auth-session-status class="mb-4" :status="session('status')" />
 
-                <form method="POST" action="{{ route('password.email') }}" class="space-y-6 w-ful">
+                <form method="POST" action="{{ route('password.email') }}" class="space-y-2 w-ful">
                     @csrf
                     <input class="w-full form-input focus:border-analogous3 border-1  px-4 py-2 border rounded-md"
                            type="email" name="email" placeholder="Email address" required="">

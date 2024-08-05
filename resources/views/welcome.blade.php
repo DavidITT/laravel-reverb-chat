@@ -19,7 +19,7 @@
     <div class="w-full bg-white lg:w-1/2 flex items-center justify-center">
         <div class="max-w-md w-full p-6">
             <header class="mb-4">
-                <h1 class="text-4xl font-bold text-center mb-10 text-primary">Chat App</h1>
+                <h1 class="text-4xl font-bold text-center mb-10 text-accent3">Chat App</h1>
                 <p class="text-center text-gray-500">Test application with real-time chat using Laravel, Laravel Reverb,
                     Echo and Vue.js 3</p>
             </header>

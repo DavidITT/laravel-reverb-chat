@@ -14,7 +14,7 @@
                         <x-application-logo class="w-20 h-20 text-gray-500 fill-current"/>
                     </a>
                 </div>
-                <h1 class="text-3xl font-semibold mb-6  text-primary text-center">Sign Up</h1>
+                <h1 class="text-3xl font-semibold mb-6 text-accent3 text-center">Sign Up</h1>
                 <p class="text-sm font-semibold mb-6 text-gray-500 text-center">Join to Our Community with all time
                     access and free and test this app </p>
 

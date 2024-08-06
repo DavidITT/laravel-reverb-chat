@@ -1,15 +1,15 @@
 <template>
-    <div class="bg-gray-200 p-4 rounded-b-lg">
+    <div class="bg-complementary/30 p-4 rounded-b-lg">
         <form @submit.prevent="sendMessage">
             <div class="flex">
-                <input class="w-full border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                <input class="border rounded-full px-4 py-2 w-full text-gray-700 focus:border-none focus:outline-none focus:ring-1 focus:ring-accent2"
                        type="text"
                        v-model="newMessage"
                        @keydown="sendTypingEvent"
                        placeholder="Type a message...">
                 <button
                     type="submit"
-                    class="px-4 py-1 ml-2 text-white bg-blue-500 rounded-lg">
+                    class="px-4 py-1 ml-2 text-white bg-primary rounded-lg">
                     Send
                 </button>
             </div>

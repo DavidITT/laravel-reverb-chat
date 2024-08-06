@@ -5,7 +5,7 @@
                  :key="message.id" class="flex mb-2">
                 <div
                     v-if="message.sender_id === currentUser.id"
-                    class="p-2 mr-3 ml-auto text-white bg-blue-500 rounded-lg"
+                    class="p-2 mr-3 ml-auto text-white bg-primary rounded-lg"
                 >
                     {{ message.text }}
                 </div>

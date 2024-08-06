@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-between p-4 bg-card text-card-foreground bg-gray-200">
+    <div class="flex items-center justify-between p-3 bg-complementary/30 text-card-foreground">
         <div class="inline-flex gap-3 items-center">
             <a href="/dashboard">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
